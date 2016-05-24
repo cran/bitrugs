@@ -1,0 +1,7 @@
+exportPattern("^[^\\.]")
+useDynLib(bitrugs, network_mcmc)
+importFrom("grDevices", "rgb")
+importFrom("graphics", "abline", "arrows", "layout", "lines", "plot",
+             "points", "text")
+importFrom("stats", "quantile", "rbinom", "rgeom", "rpois", "runif")
+importFrom("utils", "read.table")
